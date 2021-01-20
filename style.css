@@ -1,0 +1,96 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    background-color: red;
+    text-align: center;
+    margin: 20px;
+  }
+.all_cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+.deletebtn {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-family: 'Audiowide', cursive;
+  }
+.spacing{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+p{
+  display: inline;
+}
+.qte{
+    background-color: white;
+    width: 30px;
+    text-align: center;
+    margin: auto;
+
+}
+input {
+    line-height: 20px;
+    width:30px;
+    text-align: center;
+    font-weight: bold;
+}
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+padding: 2px 16px;
+}
+table td, th{
+  border: 1px solid black;
+  padding: 8px;
+}
+.inline{
+    display: inline;
+}
+.container p{
+  display: block;
+}
+nav{ background-image: url(https://tn.jumia.is/cms/00_Merchand/00_Merchand2021/w3-tech/W4_TECH_SB2_B.jpg);
+   height: 100px;
+    width: 100%;
+    /* position: fixed; */
+}
+nav ul li {
+    display: inline;
+    top: 0;
+    font-family: 'Nova Flat', cursive;
+    float: right;
+    margin: 25px;
+}
+li a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: beige;
+  }
+body{
+    height: 800px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+section{
+    background-image: url(https://1stwebdesigner.com/wp-content/uploads/2019/07/css-background-effects-thumb.jpg);
+    
+    background-size: cover; 
+}
+.mystyle{
+  color:blueviolet;
+}
+.total{
+    color: chartreuse;
+}
